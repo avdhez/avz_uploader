@@ -4,9 +4,9 @@ from pyrogram.types import Message
 from downloader import download_and_process_links
 from uploader import clean_download_dir
 
-API_ID = int(os.getenv("API_ID","6989623"))
-API_HASH = os.getenv("API_HASH","077c18ef264de1c09a32ee2d5c00c79b")
-BOT_TOKEN = os.getenv("BOT_TOKEN","7660678005:AAFff225N_8Kv3diI-0F58GGYjai7Hww2w0")
+API_ID = int(os.getenv("API_ID",""))
+API_HASH = "")
+BOT_TOKEN = os.getenv("BOT_TOKEN","")
 
 ALLOWED_USERS = {5788821671}  # Replace with your own Telegram user ID
 DOWNLOAD_DIR = "downloads"
